@@ -1,0 +1,198 @@
+<html>
+<head>
+<title></title>
+<style>
+nav ul {
+display: flex;
+justify-content: space-evenly;
+background-color: #17819c;
+font-size: 20px;
+padding:30px;
+}
+nav ul a{
+text-decoration: none;
+color: black;
+float: left;
+}
+nav ul li {
+list-style: none;
+}
+aside a{
+text-decoration: none;
+font-family: Lucida Handwriting;
+font-size: 30px;
+color: black;
+}
+aside {
+text-align: center;
+}
+footer {
+display: flex;
+  width: 100%;
+  height: 1000 px;
+  background-color: #56505e;
+  color: white;
+  justify-content: space-evenly;
+  }
+footer ul{
+list-style: none;
+}
+
+  
+.column {
+  float: left;
+  width: 20.33%;
+  padding: 20px;
+  margin-bottom: 16px;
+ justify-content: space-evenly; 
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+<nav>
+<aside>
+<a href="#"> <img src="12.jpg" alt="nadia shop" width="60" height="50"><b>nadia shop <br></b> </a>
+</aside>
+<ul>
+<li><a href="Homepage.html"> Home</li></a>
+<li><a href="aboutus.html"> About Us</li></a>
+<li><a href="Services.html"> Our Services</li></a>
+<li><a href="contactus.html"> Contact Us</li></a>
+</nav>
+<section>
+<br>
+<h2 style="text-align: center; font-family:Verdana; font-size:40px; "> Our Services and Products</h2>
+</section>
+
+<section>
+<fieldset>
+<h3 style="text-align: left;  font-size: 30px; font-family:Garamond;"> What Do You Want Us To Buy?</h3>
+<img src="12.jpg" width="600" height="500" style="float: right;">
+<p style="text-align: center; ;font-size: 15px;"> <br><br> 
+</p>
+<br><br>
+<h3 style=" text-align: center;"> Our Services:</h3>
+<ul style=" text-align: center; text-decoration: none; list-style: none;">
+<li>Custom Orders</li>
+<li>Catering Services</li>
+<li>Delivery Options</li>
+<li>Specialty Packages</li>
+<li>Corporate Partnerships</li>
+</ul>
+</fieldset>
+</section>
+<section>
+<h3 style="text-align:center; font-family:Verdana; font-size:40px; ">  Our Products</h3>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="3.jpg" height="400" alt="hp core i3" style="width:100%">
+      <div class="container">
+        <h2>hp core i3</h2>
+        <p><a href="application.html" target="blank"><button class="button"> Buy now </button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="2.jpg" height="400" style="width:100%">
+      <div class="container">
+        <h2>hp core i5</h2>
+        <p><a href="application.html" target="blank"><button class="button"> Buy now </button></a></p>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+      <img src="3.jpg" height="400" style="width:100%">
+      <div class="container">
+        <h2>hp intel</h2>
+        <p><a href="application.html" target="blank"><button class="button"> Buy now </button></a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="1.jpg" height="400" style="width:100%">
+      <div class="container">
+        <h2>hp intel touch</h2>
+        <p><a href="application.html" target="blank"><button class="button"> Buy now </button></a></p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="card">
+      <img src="8.jpg" height="400"style="width:100%">
+      <div class="container">
+        <h2>hp wireless keyboard </h2>
+        <p><a href="application.html" target="blank"><button class="button"> Buy now </button></a></p>
+      </div>
+    </div>
+  </div>
+  
+   
+</div>
+</section>
+<section>
+</section>
+</body>
+<br> <br> <br>
+<footer>
+<aside>
+<br> <br> <br> <br> <br> <br><a href="#"> <b> nadia shop <br><b> </a>
+</aside>
+<ul>
+<h3>For customers</h3>
+<li>new laptops</li><br>
+<li>second hand laptops</li><br>
+</ul>
+</footer>
+<p style="text-align:center;"> <i>Copywrite &copy; 2024 nadia online electronic shop Company, Inc. All rights reserved.</i></P>
+</html>
